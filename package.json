@@ -2,7 +2,7 @@
   "name": "vscode-nestjs-swagger-snippets",
   "displayName": "NestJS Swagger Snippets for VSCode Editor",
   "description": "This extension for Visual Studio Code adds snippets for Swagger for NestJS.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "icon": "icon.png",
   "license": "MIT",
   "publisher": "imgildev",
@@ -42,6 +42,9 @@
   "bugs": {
     "url": "https://github.com/ManuelGil/vscode-nestjs-swagger-snippets/issues"
   },
+  "extensionPack": [
+    "imgildev.vscode-nestjs-snippets-extension"
+  ],
   "contributes": {
     "snippets": [
       {
